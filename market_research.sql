@@ -28,3 +28,18 @@ about the recent trends in the retail industry as it applies to when I would ide
 enter the industry. From my last query I wrote, I found the previous years retained earnings 
 were 138,170 million dollars, which shows there is a downwards trend and gives me an idea of
 what these numbers mean as it pertains to the business I would like to create.*/
+
+/* What did the rest of the year of 2013 look like when Q4 had its highest retained earnings
+recorded?*/
+SELECT * FROM retained_earnings_retail
+WHERE year=2013;
+
+/* It looks like this entire year had high retained earning values. Using this information, and
+knowing where the retained earnings have been in the recent days, it seems like they have dropped a 
+fair amount since 2013 and this was not just an outlier. */
+
+-- What did the rest of 2001 look like when Q4 had the lowest retained earnings rcorded?
+SELECT * FROM retained_earnings_retail
+WHERE year=2001;
+/* This table, similarly to 2013, shows this is not an outlier value. The other values are very much on 
+par with this minimum.*/
