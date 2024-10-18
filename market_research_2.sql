@@ -19,10 +19,9 @@ specifically like to open my store in Schaumburg, which showed up in this table 
 
 -- What is the median income of the municipalities that border Schaumburg?
 SELECT * FROM median_income_in_chicago
-WHERE municipality = 'Hoffman Estates' OR 'Elk Grove Village' OR 'Rolling Meadows'
+WHERE municipality IN ('Hoffman Estates', 'Elk Grove Village', 'Palatine')
 ORDER BY median_income_2000_to_2009 DESC;
 
-/* It looks like the only municipality bordering Schaumburg in Cook County is
-Hoffman Estates. With that being said, the median income is $76,171, which is 
-fairly close to that of Schaumburg. This further enhances the business model 
-I am trying to produce.*/
+/* These bordering cities have median incomes in the mid 70ks which is similar
+to Schaumburg. This enforces my business model knowing the bordering cities are within
+5-10k in median income level.*/
