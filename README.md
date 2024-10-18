@@ -1,1 +1,2 @@
 # Capstone_1
+In my presentation, I am going to be modeling a soccer store in which we sell jerseys, cleats, equipment and recoevery products to soccer fans and players. My consumer base will be primarily middle class and suppliers will be primary soccer companies like Nike and Adidas. My market research includes data about the retail industry trends as it pertains to retained earnings and median income of municipalities in cook county. 
